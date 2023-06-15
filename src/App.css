@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.containerInput {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+}
+
+.btn-tarefa {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.buttonAdd {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem
+}
+
+button {
+    margin-left: 10px;
+}
+
+button:last-child {
+    margin-left: 0;
+}
+
+.containerInput input {
+    padding: 0.8rem;
+    border: none;
+    width: 15rem;
+    border-radius: 4px;
+}
+
+button {
+    border: none;
+    padding: 0.6rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0.6rem;
+    font-weight: 700;
+}
+
+button:hover {
+    scale: 110%;
+    color: rgba(113, 86, 200, 0.738);
+}
+
+.btn-favoritar {
+    color: black;
+    background: none;
+    font-weight: 700;
+}
+
+.btn-favoritar:hover {
+    color: rgba(83, 83, 83, 0.558);
+}
+.li-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerButton {
+    height: 2rem;
+    background: white;
+    align-items: center;
+    padding: 1.7rem;
+    border-radius: 5px;
+    display: flex;
+    gap: 3px;
+}
+
+p {
+    margin-right: 1rem;
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 6.5rem;
+}
+
+.buttonAdd {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+
+button.btn-adicionar {
+    padding: 1rem;
+    border-radius: 6px;
+}
+.containerList {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
